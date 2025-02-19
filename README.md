@@ -5,10 +5,15 @@ A Python-based tool that uses the Whisper-small-cantonese model to detect mood f
 ## Description
 
 This project uses the `alvanlii/whisper-small-cantonese` model to transcribe Cantonese speech and analyze the emotional content of the speech. It can detect various moods including:
-- 開心 (Happy)
-- 嬲 (Angry)
-- 傷心 (Sad)
-- 平靜 (Neutral)
+    '開心': 'happy',
+    '高興': 'happy',
+    '笑': 'happy',
+    '傷心': 'sad',
+    '嬲': 'angry',
+    '怒': 'angry',
+    '平靜': 'neutral',
+    '驚': 'scared',
+    '緊張': 'nervous'
 
 ## Prerequisites
 
